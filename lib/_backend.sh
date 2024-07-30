@@ -105,8 +105,6 @@ backend_node_dependencies() {
 
   sudo su - deploy <<EOF
   cd /home/deploy/${instancia_add}/backend
-  npm install @whiskeysockets/baileys@allgood/Baileys#fixProfilePic
-  
   npm install
 EOF
 
